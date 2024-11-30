@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="container pt-5 d-flex align-items-center justify-content-center ">
+            <div  class=" w-75  m-auto p-3 mb-5 bg-body-tertiary rounded d-flex flex-column">
+                <div class="text-center">
+                    <h1>Login</h1>
+                </div>
+                <div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control rounded-5" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control rounded-5" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                  
+                  <div class="pt-3">  <div class="alert alert-danger d-none  " id="Error" role="alert">
+                       
+                  </div></div>
+                </div>
+                <div class="pt-5">
+                    <button type="button" class="btn btn-primary btn-lg w-100" id="btnlogn">Login</button>
+                </div>
+
+                <div class="text-center">
+                    <p >Don't Have an acount? <span id="SignUplogin">Sign Up</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./login/main.js"></script>
+</body>
+
+</html>

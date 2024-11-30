@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="container pt-5 d-flex align-items-center justify-content-center ">
+            <div class=" w-75  m-auto p-3 mb-5 bg-body-tertiary rounded d-flex flex-column">
+                <div class="text-center">
+                    <h1>New User </h1>
+                </div>
+                <div>
+                    
+                    <div class="form-floating mb-3" >
+                        <input type="text" onkeyup="chekAllInput()" class="form-control rounded-5" id="FirstNameInput" placeholder="First Name">
+                        <label for="floatingInput">First Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control rounded-5" id="secondNameInput"
+                            placeholder="Second Name">
+                        <label for="floatingInput">Second Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" onkeyup="mailvalied()" class="form-control rounded-5" id="floatingInput"
+                            placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="alert alert-danger d-none " id="mailMassagText" role="alert">
+                        Email just be correct
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control rounded-5" id="floatingPassword"
+                            placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+
+                    <div class="text-center text-bg-dark d-none"><a>All Input as unculied</a></div>
+                </div>
+                <div class="pt-2">
+                    <div class="alert alert-warning d-none " id="checkdata" role="alert">
+                       
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <button type="button" class="btn btn-primary btn-lg w-100" id="btnlogn">Login</button>
+                </div>
+
+                <div class="text-center">
+                    <p>You Have an acount? <span id="signIn">Sign in</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./Sign//main.js"></script>
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
