@@ -30,7 +30,7 @@ btnLogin.addEventListener("click", function () {
         loginList.push(List)
         // console.log(loginList)
         localStorage.setItem("LoginData", JSON.stringify(loginList))
-        window.location = '../index.html'
+        window.location = './index.html'
 
         clearData()
 
@@ -43,7 +43,7 @@ btnLogin.addEventListener("click", function () {
 });
 
 sign.addEventListener("click", function () {
-    window.location = '../sign.html'
+    window.location = './sign.html'
 
 })
 
@@ -65,7 +65,7 @@ function clearData() {
 }
 
 SignIn.addEventListener("click", function () {
-    window.location = '../index.html'
+    window.location = './index.html'
 })
 
 
