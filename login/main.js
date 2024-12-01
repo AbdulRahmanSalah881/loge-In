@@ -53,7 +53,7 @@ loginbtn.addEventListener("click", function () {
             if (Passchek.value === saveObject[i].Pass) {
                 errorInputs.classList.add("d-none")
                 localStorage.setItem("nameone", JSON.stringify(saveObject[i].first))
-                window.location = '../welcom.html'
+                window.location = './welcom.html'
                 isLoggedIn = true;
                 break;
             } else {
@@ -81,7 +81,7 @@ loginbtn.addEventListener("click", function () {
 
 })
 sign.addEventListener("click", function () {
-    window.location = '../sign.html'
+    window.location = './sign.html'
 
 })
 
